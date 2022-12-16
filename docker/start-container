@@ -8,8 +8,8 @@ if [ ! -d /.composer ]; then
     mkdir /.composer
 fi
 
-composer install --optimize-autoloader --no-dev
 npm i
+composer install --optimize-autoloader --no-dev
 npm audit fix --force
 chmod -R ugo+rw /.composer
 
