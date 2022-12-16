@@ -8,9 +8,6 @@ if [ ! -d /.composer ]; then
     mkdir /.composer
 fi
 
-composer install --optimize-autoloader --no-dev
-npm i
-npm audit fix --force
 chmod -R ugo+rw /.composer
 
 if [ $# -gt 0 ]; then
