@@ -94,6 +94,6 @@ RUN rsync -ar /var/www/html/public-npm/ /var/www/html/public/ \
     && rm -rf /var/www/html/public-npm \
     && chown -R webuser:webgroup /var/www/html/public
 
-EXPOSE 8080
+EXPOSE 8000
 
 ENTRYPOINT ["/entrypoint"]
