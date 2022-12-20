@@ -15,13 +15,6 @@ processes = []
   LOG_CHANNEL = "stderr"
   LOG_LEVEL = "info"
   LOG_STDERR_FORMATTER = "Monolog\\Formatter\\JsonFormatter"
-  # New stuff here
-  MYSQL_HOST=containers-us-west-146.railway.app
-  MYSQL_PORT=7664
-  MYSQL_DATABASE=railway
-  MYSQL_USER=root
-  MYSQL_PASSWORD=nsUKQRV3oKsk9tcGDjG5
-
 
 
 [experimental]
